@@ -94,29 +94,17 @@ The three chatbots most people should pick as their daily driver. Mature free ti
 #### Claude (Anthropic)
 
 - **Link:** [claude.ai](https://claude.ai)
-- **Best at:** careful reasoning, long-form writing, coding, nuanced analytical work. Generally considered the strongest prose writer and the most honest about what it doesn't know.
-- **Free tier (April 2026):** defaults to **Claude Sonnet 4.6**. No official published message cap — community-tracked at roughly **15–40 messages per rolling 5-hour window** (shrinks during peak load). ~200K-token effective context. Includes file uploads (~20 files per chat, 30 MB each), web search, image/vision analysis, Artifacts (interactive code/doc rendering), Projects, and Memory (rolled out to free tier March 2026).
-- **Lose vs. Pro ($20/mo) / Max ($100–200/mo):** Opus 4.6/4.7 access, ~5× more usage on Pro / ~20× on Max, Claude Code (terminal coding agent), larger extended-thinking budgets, priority during peak demand.
-- **Unique feature:** **Artifacts + Projects** — a side-panel that renders React components, SVGs, interactive docs, and mini web apps live, plus persistent project workspaces that remember your uploaded context. Still the cleanest scratchpad in the Top 3.
-- **Sign-up:** email, Google SSO, or Apple SSO. No credit card. No expiration.
+- Best for careful reasoning, long-form writing, and coding. Honest about its limits. | Free: ~15–40 msgs/5hr, ~200K context, file uploads, web search, vision, Artifacts, Projects, Memory | Best for: writing, analysis, coding | Catch: hit limits fast at peak; Opus and Claude Code require paid.
 
 #### ChatGPT (OpenAI)
 
 - **Link:** [chatgpt.com](https://chatgpt.com)
-- **Best at:** all-around generalist work, mature tooling, the widest third-party app/connector ecosystem, voice UX. Strongest for structured business tasks and custom workflows via GPTs.
-- **Free tier (April 2026):** defaults to **GPT-5.3 Instant**, roughly **10 messages per 5-hour window** before silently downgrading to GPT-5.3 mini. **GPT-5.4 mini** was added to the free tier on March 17, 2026. Free users also get: standard voice mode, image analysis, limited image generation, ~3 file uploads/day, basic memory, web browsing, and the ability to *use* (but not *create*) Custom GPTs. **Since February 9, 2026, US free users see contextual ads under responses.** Context window not officially published — community benchmarks suggest ~8–32K effective.
-- **Lose vs. Go ($8) / Plus ($20) / Pro ($200):** GPT-5.4 Thinking and GPT-5.4 Pro, Deep Research, Sora video, Codex, Agent Mode, full Canvas, Custom GPT creation, the 60+ app connectors (Drive, Slack, GitHub, Salesforce), ad-free experience.
-- **Unique feature:** the **GPT Store / Custom GPTs ecosystem** plus the most mature **voice conversation UX** — free users can use tens of thousands of community GPTs without paying.
-- **Sign-up:** email, Google, Microsoft, or Apple SSO. No credit card. Phone verification sometimes required.
+- Best all-rounder with the widest ecosystem, voice UX, and GPT Store. | Free: ~10 GPT-5.3 msgs/5hr then mini, voice, image analysis, web browsing, use (not create) Custom GPTs | Best for: general tasks, business workflows, voice | Catch: US free users see ads since Feb 9, 2026; most power features behind Plus/Pro.
 
 #### Gemini (Google)
 
 - **Link:** [gemini.google.com](https://gemini.google.com)
-- **Best at:** **multimodal work and Google ecosystem integration** — images, video inputs, music, audio overviews, and Deep Research in one interface, plus native Gmail/Drive/Docs context.
-- **Free tier (April 2026):** **Gemini 2.5 Pro** is the most capable model available to free consumer users (Gemini 3.1 Pro, released Feb 19, 2026, is paid-only). Consumer "Basic" caps: **~30 prompts/day**, 20 Audio Overviews/day, **5 Deep Research reports/month**, 20 image generations/day (Nano Banana) + 3/day on Nano Banana Pro, 10 Lyria music tracks/day, 25 Dynamic View prompts/day. Native web grounding, Gemini Live voice mode, file uploads (10 files/prompt, 2 GB video each), and GitHub repo upload (up to 5,000 files). **Context window on free tier is only 32K tokens — the sharpest free-vs-paid divide of the Top 3.**
-- **Lose vs. Google AI Pro ($20/mo) / AI Ultra:** Gemini 3.1 Pro, 1M+ context, Veo 3 video generation, much higher quotas on everything, full Gemini-in-Workspace (Docs, Gmail, Drive, Meet).
-- **Unique feature:** **Deep Research + native Google Workspace/Search integration** — it can pull from your Gmail, summarize Drive files, draft inside Docs, and run multi-source research reports that cite live web sources.
-- **Sign-up:** Google account required.
+- Best for multimodal work and Google ecosystem integration. | Free: ~30 prompts/day on Gemini 2.5 Pro, 5 Deep Research/month, 20 image gens/day, Gemini Live voice, 2GB video uploads | Best for: Gmail/Drive/Docs users, Deep Research, multimodal | Catch: only 32K context on free — sharpest paid divide of the three.
 
 #### Top 3 side-by-side comparison
 
@@ -142,18 +130,12 @@ Two chatbots that don't quite match the Top 3 overall but are **best-in-class at
 #### DeepSeek
 
 - **Link:** [chat.deepseek.com](https://chat.deepseek.com)
-- **Best at:** **frontier reasoning at zero cost**. DeepSeek R1 / V3.2 hit ~90% of GPT-5.4-class quality on math, code, and logic benchmarks — and the free web chat is essentially unlimited. Also the best-in-class open-weight model family (685B MoE, MIT-ish license), so developers can self-host the same intelligence.
-- **Free tier (April 2026):** no practical message cap on the web chat, web search included, file uploads supported, "DeepThink" extended-reasoning mode toggleable per message. API has a separate free allowance for developers.
-- **Catch:** Chinese-lab origin — some employers, schools, or regulated industries restrict its use for data-residency/compliance reasons. UI is less polished than the Top 3 and the ecosystem (plugins, custom bots, voice) is minimal.
-- **Unique feature:** **genuinely unlimited frontier reasoning for free**, plus the option to take the same weights and run them yourself via Ollama or a dedicated host. No one else in the top tier offers this combination.
+- Frontier-class reasoning (~90% of GPT-5.4 quality) with essentially no message cap. Open-weight too — self-host the same model. | Free: unlimited chat, web search, file uploads, DeepThink reasoning mode | Best for: heavy reasoning, math, code on a budget | Catch: Chinese-lab origin raises compliance concerns for some employers/industries; minimal ecosystem.
 
 #### Grok (xAI)
 
 - **Link:** [grok.com](https://grok.com) (also accessible inside X)
-- **Best at:** **real-time information and social/news monitoring** — nothing else plugs directly into live X (Twitter) data. Fastest responses in the group (1–3s), huge context (up to 2M tokens on Grok 4.1 Fast), and notably less filtered than competitors.
-- **Free tier (April 2026):** Grok 4 (via Auto routing) and Grok 4.1 Fast with its 2-million-token context. Roughly **10 prompts per 2-hour rolling window** on grok.com. Includes real-time X + web search, voice mode (iOS app; Android more restricted), Live Camera (iOS), image/vision, PDF/photo uploads, limited DeepSearch, and limited companion characters. **Grok Imagine image/video generation was heavily restricted on free users on March 19, 2026.**
-- **Catch:** the 2-hour window cap is tighter than it sounds — a real research session hits it fast. Free tier has been *shrinking* through 2026, not growing. Voice/video features favor iOS; Android is second-class. Tied to the X ecosystem in ways some users actively want to avoid.
-- **Unique feature:** **native real-time X integration** — can query live trends, breaking-news sentiment, and specific X threads in real time. No other major chatbot does this.
+- Only chatbot with native real-time X (Twitter) data. Fastest responses (1–3s), 2M-token context on Grok 4.1 Fast. | Free: ~10 prompts/2hr, real-time X + web search, voice (iOS), vision, PDF uploads | Best for: live news monitoring, social trends, X power users | Catch: 2hr window hits fast; free tier shrinking in 2026; Grok Imagine restricted March 19.
 
 ---
 
