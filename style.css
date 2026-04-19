@@ -239,7 +239,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, kbd:focus-visible {
 .btn-ghost:hover { background: var(--bg-tertiary); border-color: var(--border-strong); }
 
 /* ---- Sections -------------------------------------------------- */
-section { padding: 64px 0; }
+section { padding: 30px 0; }
 .section-head { margin-bottom: 32px; max-width: 640px; }
 .section-head h2, .section-head h3 {
   margin: 0 0 8px;
@@ -440,12 +440,12 @@ section { padding: 64px 0; }
   display: flex; flex-wrap: wrap; gap: 6px;
 }
 .pill {
-  padding: 6px 12px;
+  padding: 2px 4px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: 100px;
   color: var(--text-secondary);
-  font-size: 12px; font: inherit; font-size: 12px;
+  font-size: 10px; font: inherit; font-size: 12px;
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s, color 0.15s;
   white-space: nowrap;
@@ -472,8 +472,8 @@ section { padding: 64px 0; }
 .clear-btn:hover { text-decoration: underline; }
 
 /* ---- Category / tool cards ----------------------------------- */
-.category-section { padding: 48px 0 16px; }
-.category-section:first-child { padding-top: 32px; }
+.category-section { padding: 10px 0 16px; }
+.category-section:first-child { padding-top: 10px; }
 .category-header { margin-bottom: 20px; scroll-margin-top: 160px; }
 .category-header h2 {
   margin: 0 0 4px;
