@@ -3,6 +3,30 @@
 ![Awesome Free AI Tools — 230+ genuinely free AI tools](/assets/social-preview-2.png)
 
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mdruhulkuddus&repo=awesome-free-ai-tools&label=VISITS&color=007bff" alt="Visits">
+  
+  <img src="https://img.shields.io/badge/VERSION-1.3-orange" alt="Version">
+  
+  <img src="https://img.shields.io/badge/LICENSE-MIT-brightgreen" alt="License">
+  
+  <img src="https://img.shields.io/github/stars/mdruhulkuddus/awesome-free-ai-tools?color=yellow&label=STARS&logo=github" alt="Stars">
+
+  <img src="https://img.shields.io/github/contributors/mdruhulkuddus/awesome-free-ai-tools?color=brightgreen" alt="Contributors">
+
+  <a href="https://github.com/mdruhulkuddus">
+    <img src="https://img.shields.io/github/followers/mdruhulkuddus?label=FOLLOW&color=212121" alt="Follow">
+  </a>
+
+  <a href="https://www.linkedin.com/in/mdruhulkuddus/">
+    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-007bff?logo=linkedin" alt="LinkedIn">
+  </a>
+</p>
+
+---
+
+## 📖 Introduction
+
 A curated, opinionated list of the best **genuinely free** AI tools available right now — real free tiers, open-source projects, and freemium plans where the free tier is actually usable for real work. No "free means 3 generations then paywall." No trial-bait.
 
 **Last updated:** April 17, 2026
